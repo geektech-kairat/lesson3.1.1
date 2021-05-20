@@ -17,7 +17,7 @@ public class EmojiGame {
         cardContent.add("😎");
         cardContent.add("😂");
         cardContent.add("😊");
-        cardContent.add(" \uD83D\uDC80");
+        cardContent.add("\uD83D\uDC80");
         game = new Game<>(cardContent);
     }
     public void cardClick(Card<String> card, Context context){
